@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10111000101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10111000101" textdirection="ltr" device="true" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
     <layout name="npnxnanbsnfns10111000101" font="Open Sans" controllayout="npnxnanbsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
     <layout name="pxabnsnfns10111000101" font="Open Sans" controllayout="pxabnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Chủ đề 1: Bài học đầu tiên" />
+              <option name="title_text" value="Chủ đề 1. B&amp;#224;i học đầu ti&amp;#234;n: a, b, c, o, thanh huyền, thanh sắc, thanh hỏi. B&amp;#224;i 2" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -27,7 +27,7 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="false" group="linkleft" />
+              <listitem name="resources" value="false" group="linkright" />
               <listitem name="outline" value="true" group="linkright" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
@@ -411,8 +411,8 @@
           <color name="btn_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF5F5F5" alpha="100" stop="0" />
-                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+                <color rgb="0xFDEADA" alpha="100" stop="0" />
+                <color rgb="0xF79646" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
@@ -474,28 +474,28 @@
           <color name="hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+                <color rgb="0xF2DCDB" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="viewed">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x909090" alpha="100" stop="0" />
+                <color rgb="0x984807" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x353535" alpha="100" stop="0" />
+                <color rgb="0xF79646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="selected">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+                <color rgb="0xFDEADA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -520,46 +520,46 @@
           <color name="diva">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+                <color rgb="0xD3D3D3" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="divb">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+                <color rgb="0xF7F7F7" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xE9E9E9" alpha="100" stop="0" />
-                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+                <color rgb="0xE9E9E9" alpha="0" stop="0" />
+                <color rgb="0xCFCFCF" alpha="0" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xE9E9E9" alpha="100" stop="0" />
-                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+                <color rgb="0xE9E9E9" alpha="0" stop="0" />
+                <color rgb="0xF3F3F3" alpha="0" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="menu_shade">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xDBDBDB" alpha="100" stop="0" />
-                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+                <color rgb="0xDBDBDB" alpha="0" stop="0" />
+                <color rgb="0xC3C3C3" alpha="0" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="slide_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xE9E9E9" alpha="100" stop="0" />
-                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+                <color rgb="0xE9E9E9" alpha="0" stop="0" />
+                <color rgb="0xCFCFCF" alpha="0" stop="255" />
               </colors>
             </fill>
           </color>
@@ -570,59 +570,59 @@
           <color name="btn_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF5F5F5" alpha="100" stop="0" />
-                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+                <color rgb="0xF5F5F5" alpha="0" stop="0" />
+                <color rgb="0xC7C7C7" alpha="0" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="btn_hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF2F2F2" alpha="100" stop="0" />
-                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+                <color rgb="0xFDEADA" alpha="100" stop="0" />
+                <color rgb="0xFDEADA" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="btn_down">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xC7C7C7" alpha="100" stop="0" />
-                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+                <color rgb="0xFDEADA" alpha="100" stop="0" />
+                <color rgb="0xFDEADA" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="btn_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+                <color rgb="0xB1B1B1" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x353535" alpha="100" stop="0" />
+                <color rgb="0xE46C0A" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_text_shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+                <color rgb="0xF0F0F0" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_icon_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x353535" alpha="100" stop="0" />
+                <color rgb="0xDC700C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_glow">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+                <color rgb="0xFCD5B5" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
@@ -747,14 +747,14 @@
           <color name="icons">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x555555" alpha="100" stop="0" />
+                <color rgb="0xE46C0A" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+                <color rgb="0xD9D9D9" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
@@ -841,58 +841,58 @@
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF5F5F5" alpha="100" stop="0" />
-                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+                <color rgb="0xF5F5F5" alpha="0" stop="0" />
+                <color rgb="0xC7C7C7" alpha="0" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+                <color rgb="0xB1B1B1" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="seek_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xB8B8B8" alpha="100" stop="0" />
-                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+                <color rgb="0xF79646" alpha="0" stop="0" />
+                <color rgb="0xF79646" alpha="0" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="seek_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+                <color rgb="0xFDEADA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="seek_position">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xF79646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_icon_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+                <color rgb="0xDC700C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_icon_hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x555555" alpha="100" stop="0" />
+                <color rgb="0xF79646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_icon_shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+                <color rgb="0xF0F0F0" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
@@ -903,35 +903,35 @@
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+                <color rgb="0x984807" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x555555" alpha="100" stop="0" />
+                <color rgb="0x984807" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="selected">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x404040" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x984807" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+                <color rgb="0xF0F0F0" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1077,37 +1077,48 @@
           <color name="thumb_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+                <color rgb="0xA5A5A5" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="thumb_inner">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+                <color rgb="0xE46C0A" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="thumb_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+                <color rgb="0xF79646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="slider_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xF2F2F2" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="slider_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBCBCBC" alpha="100" stop="0" />
-                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xFAC090" alpha="100" stop="0" />
+                <color rgb="0xFAC090" alpha="100" stop="128" />
                 <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1137,9 +1148,9 @@
       <string id="shortcuthelp">List keyboard shortcuts</string>
       <string id="shortcut">Shortcut</string>
       <string id="togglezoom">Switch zoom modes</string>
-      <string id="outline">Mục lục</string>
+      <string id="outline">MỤC LỤC</string>
       <string id="disabled_orientation">Please rotate your device</string>
-      <string id="next">NEXT</string>
+      <string id="next">TIẾP TỤC</string>
       <string id="acc_next">next</string>
       <string id="transcript_chk">Notes</string>
       <string id="transcript">Notes</string>
@@ -1149,7 +1160,7 @@
       <string id="acc_pause">pause</string>
       <string id="acc_play">play</string>
       <string id="send_an_email">Send an email</string>
-      <string id="prev">PREV</string>
+      <string id="prev">QUAY LẠI</string>
       <string id="acc_previous">previous</string>
       <string id="question_list">Question List</string>
       <string id="acc_replay">replay</string>
@@ -1186,49 +1197,52 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6IYep2fXEZl.5iHptbSA4Cq" displaytext="Giới thiệu" expand="false" type="slide" />
+        <slidelink slideid="_player.6IYep2fXEZl.6Am5XPDPuWR" displaytext="Giới thiệu" expand="false" type="slide" />
         <slidelink slideid="_player.6IYep2fXEZl" displaytext="Bài 1" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6IYep2fXEZl.6j4yxlLbhgX" displaytext="Hướng dẫn" expand="false" type="slide" />
-            <slidelink slideid="_player.6IYep2fXEZl.5vmpdCPOSay" displaytext="Câu a" expand="false" type="slide" />
-            <slidelink slideid="_player.6IYep2fXEZl.6av34eq3HkN" displaytext="Câu b" expand="false" type="slide" />
-            <slidelink slideid="_player.6IYep2fXEZl.6dsPFAcheSw" displaytext="Câu c" expand="false" type="slide" />
+            <slidelink slideid="_player.6IYep2fXEZl.6j4yxlLbhgX" displaytext="Giới thiệu âm &amp;quot;a&amp;quot;" expand="false" type="slide" />
+            <slidelink slideid="_player.6IYep2fXEZl.5XwcrvTy8xm" displaytext="Câu mẫu" expand="false" type="slide" />
+            <slidelink slideid="_player.6IYep2fXEZl.676BtlSoPpn" displaytext="Câu 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6IYep2fXEZl.6av34eq3HkN" displaytext="Câu 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6IYep2fXEZl.6dsPFAcheSw" displaytext="Câu 3" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6ioibAq277n" displaytext="Bài 2" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6ioibAq277n.6FprFfVHMgi" displaytext="Hướng dẫn" expand="false" type="slide" />
-            <slidelink slideid="_player.6ioibAq277n.6ftNQYrS27z" displaytext="Câu a" expand="false" type="slide" />
-            <slidelink slideid="_player.6ioibAq277n.5zjZ4OVsD1M" displaytext="Câu b" expand="false" type="slide" />
+            <slidelink slideid="_player.6ioibAq277n.5w8sVYKPHsf" displaytext="Hướng dẫn" expand="false" type="slide" />
+            <slidelink slideid="_player.6ioibAq277n.6ftNQYrS27z" displaytext="Câu 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6ioibAq277n.5zjZ4OVsD1M" displaytext="Câu 2" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6W48LQhtKQn" displaytext="Bài 3" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6W48LQhtKQn.6Elg1E05gMg" displaytext="Câu a" expand="false" type="slide" />
-            <slidelink slideid="_player.6W48LQhtKQn.6C4flMYjKYV" displaytext="Câu b" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.6Elg1E05gMg" displaytext="Câu 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.6C4flMYjKYV" displaytext="Câu 2" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6W48LQhtKQn" displaytext="Bài 4" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6W48LQhtKQn.6VUJI0lQGXB" displaytext="Câu a" expand="false" type="slide" />
-            <slidelink slideid="_player.6W48LQhtKQn.60AFr2gcLvx" displaytext="Câu b" expand="false" type="slide" />
-            <slidelink slideid="_player.6W48LQhtKQn.6lMHaK3VtpO" displaytext="Câu c" expand="false" type="slide" />
-            <slidelink slideid="_player.6W48LQhtKQn.6BzboUARQMb" displaytext="Câu d" expand="false" type="slide" />
-            <slidelink slideid="_player.6W48LQhtKQn.6ILAMloUE4o" displaytext="Câu e" expand="false" type="slide" />
-            <slidelink slideid="_player.6W48LQhtKQn.5wKKNWNOe50" displaytext="Câu g" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.6VUJI0lQGXB" displaytext="Giới thiệu âm &amp;quot;b&amp;quot;" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.5wnTNKCYpxR" displaytext="Câu 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.60AFr2gcLvx" displaytext="Câu 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.6lMHaK3VtpO" displaytext="Câu 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.6BzboUARQMb" displaytext="Giới thiệu âm &amp;quot;o&amp;quot;" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.6Oez3wlKczl" displaytext="Câu 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.6ILAMloUE4o" displaytext="Câu 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.5wKKNWNOe50" displaytext="Câu 6" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6W48LQhtKQn" displaytext="Bài 5" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6W48LQhtKQn.6o8mGtpGckU" displaytext="Câu a" expand="false" type="slide" />
-            <slidelink slideid="_player.6W48LQhtKQn.5kpIRJkABQx" displaytext="Câu b" expand="false" type="slide" />
-            <slidelink slideid="_player.6W48LQhtKQn.63SlRNjl2Qi" displaytext="Câu c" expand="false" type="slide" />
-            <slidelink slideid="_player.6W48LQhtKQn.6RU4A0m3Szt" displaytext="Câu d" expand="false" type="slide" />
-            <slidelink slideid="_player.6W48LQhtKQn.6kMUKf07B4e" displaytext="Câu e" expand="false" type="slide" />
-            <slidelink slideid="_player.6W48LQhtKQn.6e7U5FmVjvC" displaytext="Câu g" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.6o8mGtpGckU" displaytext="Câu 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.5kpIRJkABQx" displaytext="Câu 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.63SlRNjl2Qi" displaytext="Câu 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.6RU4A0m3Szt" displaytext="Câu 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.6kMUKf07B4e" displaytext="Câu 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6W48LQhtKQn.6e7U5FmVjvC" displaytext="Câu 6" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6W48LQhtKQn.6Q9yLajYICN" displaytext="Kết thúc" expand="false" type="slide" />
+        <slidelink slideid="_player.6W48LQhtKQn.5V5BUny3X5M" displaytext="Tổng kết" expand="false" type="slide" />
       </links>
     </outline>
   </nav_data>

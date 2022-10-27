@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <!-- Created using Storyline 3 - http://www.articulate.com  -->
-  <!-- version: 3.10.22406.0 -->
-  <title>Ch&#7911; &#273;&#7873; 1: B&#224;i h&#7885;c &#273;&#7847;u ti&#234;n</title>
+  <!-- version: 3.11.23355.0 -->
+  <title>Ch&#7911; &#273;&#7873; 1. B&#224;i h&#7885;c &#273;&#7847;u ti&#234;n: a, b, c, o, thanh huy&#7873;n, thanh s&#7855;c, thanh h&#7887;i. B&#224;i 2</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no, minimal-ui" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -12,21 +12,7 @@
     html, body { height: 100%; padding: 0; margin: 0 }
     #app { height: 100%; width: 100%; }
   </style>
-  <script src="lms/APIConstants.js" charset="utf-8"></script>
-        <script src="lms/Configuration.js" charset="utf-8"></script>
-        <script src="lms/UtilityFunctions.js" charset="utf-8"></script>
-        <script src="lms/SCORM2004Functions.js" charset="utf-8"></script>
-        <script src="lms/SCORMFunctions.js" charset="utf-8"></script>
-        <script src="lms/AICCFunctions.js" charset="utf-8"></script>
-        <script src="lms/NONEFunctions.js" charset="utf-8"></script>
-        <script src="lms/LMSAPI.js" charset="utf-8"></script>
-        <script src="lms/API.js" charset="utf-8"></script>
-
-        <script>
-          strContentLocation = "story_html5.html";
-          window.scormdriver_content = window;
-          function LoadContent(){}
-        </script>
+  <script src="lms/scormdriver.js" charset="utf-8"></script>
   <script>window.THREE = { };</script>
 </head>
 <body style="background: #FFFFFF" class="cs-HTML theme-classic">
@@ -39,7 +25,7 @@
     window.isMobile.any = window.isMobile.any || window.isMobile.apple.tablet;
   </script>
 
-  <div id="focus-sink" aria-hidden="true" tabIndex=-1"></div>
+  <div id="focus-sink" aria-hidden="true" tabIndex="-1"></div>
 
   <div id="preso"></div>
   <script>
@@ -65,7 +51,7 @@
       publishSource: 'storyline',
       aid: '',
       cid: 'b84603b1-670b-4bed-b3ac-60779e28178c',
-      playerVersion: '3.10.22406.0',
+      playerVersion: '3.11.23355.0',
       maxIosVideoElements: 5,
 
       
@@ -132,7 +118,7 @@
   </script>
 
   <div class="mobile-load-title-overlay" style="display: none">
-    <div class="mobile-load-title">Ch&#7911; &#273;&#7873; 1: B&#224;i h&#7885;c &#273;&#7847;u ti&#234;n</div>
+    <div class="mobile-load-title">Ch&#7911; &#273;&#7873; 1. B&#224;i h&#7885;c &#273;&#7847;u ti&#234;n: a, b, c, o, thanh huy&#7873;n, thanh s&#7855;c, thanh h&#7887;i. B&#224;i 2</div>
   </div>
 
   <div class="mobile-chrome-warning"></div>
@@ -144,9 +130,7 @@
     }
   </script>
 
-  <iframe name="AICCComm" src="lms/AICCComm.html" style="display:none;"></iframe>
-        <iframe name="rusticisoftware_aicc_results" src="lms/blank.html" style="display:none;"></iframe>
-        <iframe name="NothingFrame" src="lms/blank.html" style="display:none;"></iframe>
+  
 
   <link rel="stylesheet" href="html5/data/css/output.min.css" data-noprefix />
 </body>
